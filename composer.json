@@ -1,0 +1,14 @@
+{
+    "name": "drupal/openteam",
+    "description": "Openteam Distribution",
+    "authors": [
+        {
+            "name": "Dan Chadwick",
+            "email": "daniel.chadwick612@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.0"
+    },
+}
