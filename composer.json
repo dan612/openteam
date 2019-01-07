@@ -13,9 +13,12 @@
         "php": ">=7.0.0"
     },
     "extra": {
+      "installer-types": [
+          "bower-asset",
+          "npm-asset"
+      ],
       "installer-paths": {
         "docroot/profiles/custom/{$name}": ["type:custom-project"]
       }
     }
-
 }
