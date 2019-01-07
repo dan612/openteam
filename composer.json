@@ -11,6 +11,8 @@
     "minimum-stability": "dev",
     "require": {
         "php": ">=7.0.0",
-        "zaporylie/composer-drupal-optimizations": "^1.0"
+    },
+    "installer-paths": {
+      "docroot/profiles/custom/{$name}": ["type:custom-project"]
     }
 }
