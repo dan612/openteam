@@ -1,0 +1,12 @@
+name: 'Openteam'
+type: profile
+version: 8.x-dev
+description: 'openteam distro'
+core: '8.x'
+
+themes:
+  - bartik
+  - seven
+  - bootstrap
+
+base profile: lightning
