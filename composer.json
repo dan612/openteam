@@ -1,7 +1,7 @@
 {
-    "name": "drupal/openteam",
+    "name": "dan612/openteam",
     "description": "Openteam Distribution",
-    "type": "project",
+    "type": "custom-project",
     "authors": [
         {
             "name": "Dan Chadwick",
@@ -10,41 +10,7 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "php": ">=7.0.0"
-    },
-    "extra": {
-      "installer-types": [
-        "bower-asset",
-        "npm-asset"
-      ],
-      "installer-paths": {
-        "docroot/core": [
-          "type:drupal-core"
-        ],
-        "docroot/modules/custom/{$name}": [
-          "type:custom"
-        ],
-        "docroot/libraries/{$name}": [
-          "type:drupal-library",
-          "type:bower-asset",
-          "type:npm-asset"
-        ],
-        "docroot/modules/contrib/{$name}": [
-          "type:drupal-module"
-        ],
-        "docroot/profiles/contrib/{$name}": [
-          "type:drupal-profile"
-        ],
-        "docroot/profiles/custom/{$name}": [
-          "type:profile"
-        ],
-        "docroot/themes/contrib/{$name}": [
-          "type:drupal-theme"
-        ],
-        "drush/contrib/{$name}": [
-          "type:drupal-drush"
-        ]
-      },
-      "enable-patching": true
+        "php": ">=7.0.0",
+        "zaporylie/composer-drupal-optimizations": "^1.0"
     }
 }
