@@ -1,7 +1,7 @@
 {
     "name": "dan612/openteam",
     "description": "Openteam Distribution",
-    "type": "custom-project",
+    "type": "drupal-profile",
     "authors": [
         {
             "name": "Dan Chadwick",
@@ -14,7 +14,7 @@
     },
     "extra": {
       "installer-paths": {
-        "docroot/profiles/custom/{$name}": ["type:custom-project"]
+        "docroot/profiles/custom/{$name}": ["type:drupal-profile"]
       }
     }
 }
