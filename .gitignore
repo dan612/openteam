@@ -8,6 +8,7 @@
 /docroot/profiles/contrib
 /docroot/themes/contrib
 /docroot/sites/default/files
+# backups
 
 # Ignore Composer-managed dependencies.
 vendor/
